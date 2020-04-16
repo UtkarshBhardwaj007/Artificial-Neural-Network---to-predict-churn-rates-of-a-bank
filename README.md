@@ -5,8 +5,8 @@ The data set has been taken from https://www.superdatascience.com/pages/deep-lea
 
 If your OS kills the process, try setting the n_jobs parameter of GridSearchCV to 1.
 
-i used the random_state = 1 for the train_test_split and got an accuracy of 86%.
+i used the random_state = 2 for the train_test_split and got an accuracy of 86%.
 
-The best params from GridSearchCV were - estimator = 'rmsprop'
-                                         epochs = 500
+The best params from GridSearchCV were - estimator = 'rmsprop',
+                                         epochs = 500,
                                          batch_size = 25
